@@ -2,7 +2,7 @@
 // other BLT Project Developers. See the top-level LICENSE file for details
 //
 // SPDX-License-Identifier: (BSD-3-Clause)
-
+#ifndef __HERO_1
 #include <omp.h>
 #include <iostream>
 
@@ -28,3 +28,4 @@ int main()
   return 0;
 }
 
+#endif // __HERO_1

@@ -45,6 +45,7 @@
 // Acknowledgment: Google Test borrowed the idea of automatic test
 // registration from Barthelemy Dagenais' (barthelemy@prologique.com)
 // easyUnit framework.
+#ifndef __HERO_1
 
 #ifndef GOOGLETEST_INCLUDE_GTEST_GTEST_H_
 #define GOOGLETEST_INCLUDE_GTEST_GTEST_H_
@@ -2316,3 +2317,5 @@ inline int RUN_ALL_TESTS() { return ::testing::UnitTest::GetInstance()->Run(); }
 GTEST_DISABLE_MSC_WARNINGS_POP_()  //  4251
 
 #endif  // GOOGLETEST_INCLUDE_GTEST_GTEST_H_
+
+#endif //__HERO_1

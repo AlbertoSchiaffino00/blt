@@ -692,14 +692,14 @@ typedef struct _RTL_CRITICAL_SECTION GTEST_CRITICAL_SECTION;
 #endif
 
 // Determines whether test results can be streamed to a socket.
-#if defined(GTEST_OS_LINUX) || defined(GTEST_OS_GNU_KFREEBSD) || \
-    defined(GTEST_OS_DRAGONFLY) || defined(GTEST_OS_FREEBSD) ||  \
-    defined(GTEST_OS_NETBSD) || defined(GTEST_OS_OPENBSD) ||     \
-    defined(GTEST_OS_GNU_HURD) || defined(GTEST_OS_MAC)
-#define GTEST_CAN_STREAM_RESULTS_ 1
-#else
+// #if defined(GTEST_OS_LINUX) || defined(GTEST_OS_GNU_KFREEBSD) || \
+//     defined(GTEST_OS_DRAGONFLY) || defined(GTEST_OS_FREEBSD) ||  \
+//     defined(GTEST_OS_NETBSD) || defined(GTEST_OS_OPENBSD) ||     \
+//     defined(GTEST_OS_GNU_HURD) || defined(GTEST_OS_MAC)
+// #define GTEST_CAN_STREAM_RESULTS_ 1
+// #else
 #define GTEST_CAN_STREAM_RESULTS_ 0
-#endif
+// #endif
 
 // Defines some utility macros.
 

@@ -1,5 +1,8 @@
+#ifdef __HERO_1
+#else
 #include <iostream>
 #include <omp.h>
+#endif
 
 #include "openmp-mpi-cpp.hpp"
 

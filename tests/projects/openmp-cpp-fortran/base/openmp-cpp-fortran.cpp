@@ -1,5 +1,8 @@
+#ifdef __HERO_1
+#else
 #include <omp.h>
 #include <iostream>
+#endif
 
 void test_func()
 {

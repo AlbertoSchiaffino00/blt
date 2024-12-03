@@ -13,11 +13,12 @@
 // file: blt_cuda_openmp_smoke.cpp
 //
 //-----------------------------------------------------------------------------
-
+#ifdef __HERO_1
+#else
 #include <iostream>
 #include <omp.h>
 #include <stdio.h>
-
+#endif
 __device__ const char *STR = "HELLO WORLD!";
 const char STR_LENGTH = 12;
 

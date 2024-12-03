@@ -35,6 +35,7 @@
 
 // This line ensures that gtest.h can be compiled on its own, even
 // when it's fused.
+#ifndef __HERO_1
 #include "gtest/gtest.h"
 
 // The following lines pull in the real gtest *.cc files.
@@ -47,3 +48,5 @@
 #include "src/gtest-test-part.cc"
 #include "src/gtest-typed-test.cc"
 #include "src/gtest.cc"
+
+#endif  // __HERO_1 

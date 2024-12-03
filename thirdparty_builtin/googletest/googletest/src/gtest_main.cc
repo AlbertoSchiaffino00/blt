@@ -27,6 +27,7 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+#ifndef __HERO_1
 #include <cstdio>
 
 #include "gtest/gtest.h"
@@ -63,3 +64,5 @@ GTEST_API_ int main(int argc, char **argv) {
   return RUN_ALL_TESTS();
 }
 #endif
+
+#endif  // __HERO_1
